@@ -5,7 +5,8 @@ Scanner s=new Scanner(System.in);
 System.out.println("Enter two numbers:");
 int x=s.nextInt();
 int y=s.nextInt();
-int result=x+y;
+int z=s.nextInt();
+int result=x+y+z;
 System.out.println(result);
 }
 }
